@@ -1,0 +1,226 @@
+// out: ../css/index.css
+
+// md
+@media (max-width: 1200px) {
+    .wrapper {
+        padding: 0 40px;
+    }
+    .pets-header {
+        .header-bg {
+            .header-content {
+                padding-top: 250px;
+                max-width: 470px;
+
+            }
+        }
+    }
+    main {
+        .slider-section {
+            .slider {
+                .slide {
+                    .slider-pic {
+                        background-size: contain;
+                    }
+                }
+            }
+        }
+    }
+    .contacts-footer {
+        .contacts-bg {
+            .row-3 {
+                .col {
+                    .contacts-title {
+                        font-size: 25px;
+                    }
+                    .contact-pic {
+                        bottom: -47px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// sm
+@media (max-width: 900px) {
+    .pets-header {
+        .header-bg {
+            .header-content {
+                max-width: 400px;
+
+            }
+        }
+    }
+    main {
+        .about-section {
+            .about-group {
+                display: block;
+
+                .about-pic {
+                    margin: 0 auto;
+                }
+                .right-content {
+                    padding-top: 40px;
+                    text-align: center;
+                    width: 100%;
+                    max-width: none;
+                }
+
+            }
+        }
+    }
+    .contacts-footer {
+        .contacts-bg {
+            .row-3 {
+                .col {
+                    .contacts-title {
+                        text-align: center;
+                    }
+                    .contacts-info {
+                        ul {
+                            .info-group {
+                                justify-content: center;
+                            }
+                        }
+                    }
+                    .contact-pic {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// xs
+@media (max-width: 600px) {
+    .slick-slider {
+        .slick-list {
+            margin: 0;
+        }
+    }
+    .pets-header {
+        .header-bg {
+            .header-menu {
+                padding-top: 30px;
+
+                .logo-group {
+                    .logo-link {
+                        position: absolute;
+                        z-index: 999;
+
+                        .logo {
+                            font-size: 25px;
+                        }
+                        .sub-logo {
+                            font-size: 10px;
+                            padding-top: 5px;
+                        }
+                    }
+                }
+                .menu-group {
+                   display: none;
+                }
+                .mobile {
+                   display: block;
+
+                    .menu-container {
+                        .mobile-nav {
+                            width: 70%;
+
+                            &.active {
+                                transform: translateX(45%);
+                            }
+                        }
+                    }
+                }
+            }
+            .header-content {
+                padding-top: 200px;
+            }
+        }
+    }
+    main {
+        .about-section {
+            .about-group {
+                .about-pic {
+                    width: 100%;
+                    height: 300px;
+                }
+                .right-content {
+                    .about-title {
+                        font-size: 25px;
+                    }
+                    .about-text {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .slider-section {
+            background-color: rgb(246, 246, 246);
+    
+            .slider-title {
+                font-size: 25px;
+            }
+            .slider {
+                margin: 50px 0 0 0;
+
+                .slide {
+                    margin: 0 5px;
+                }
+            }
+        }
+        .helping-section {
+            .helping-title {
+                font-size: 25px;
+            }
+        }
+        .donate-section {
+            padding: 30px 0 86px 0;
+
+            .donate-group {
+                display: block;
+
+                .donate-pic {
+                    width: 100%;
+                    background-position: center;
+                }
+                .donate-content {
+                    max-width: none;
+                    width: 100%;
+    
+                    .donate-title {
+                        font-size: 25px;
+                        text-align: center;
+                    }
+                    .donate-name {
+                        text-align: center;
+                        padding: 35px 0;
+                    }
+                    .donate-info {
+                        .card-pic {
+                            width: 30px;
+                            height: 23px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-size: contain;
+                            margin-right: 15px;
+                        }
+                        .card-number {
+                            font-size: 18px;
+                        }
+                    }
+                    .donate-sub-text {
+                        text-align: center;
+                    }   
+                }
+            }
+        }
+    }
+    .contacts-footer {
+        .contacts-bg {
+            height: 700px;
+        }
+    }
+}

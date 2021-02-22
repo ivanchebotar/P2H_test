@@ -1,0 +1,142 @@
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 0 40px;
+  }
+  .pets-header .header-bg .header-content {
+    padding-top: 250px;
+    max-width: 470px;
+  }
+  main .slider-section .slider .slide .slider-pic {
+    background-size: contain;
+  }
+  .contacts-footer .contacts-bg .row-3 .col .contacts-title {
+    font-size: 25px;
+  }
+  .contacts-footer .contacts-bg .row-3 .col .contact-pic {
+    bottom: -47px;
+  }
+}
+@media (max-width: 900px) {
+  .pets-header .header-bg .header-content {
+    max-width: 400px;
+  }
+  main .about-section .about-group {
+    display: block;
+  }
+  main .about-section .about-group .about-pic {
+    margin: 0 auto;
+  }
+  main .about-section .about-group .right-content {
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+    max-width: none;
+  }
+  .contacts-footer .contacts-bg .row-3 .col .contacts-title {
+    text-align: center;
+  }
+  .contacts-footer .contacts-bg .row-3 .col .contacts-info ul .info-group {
+    justify-content: center;
+  }
+  .contacts-footer .contacts-bg .row-3 .col .contact-pic {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .slick-slider .slick-list {
+    margin: 0;
+  }
+  .pets-header .header-bg .header-menu {
+    padding-top: 30px;
+  }
+  .pets-header .header-bg .header-menu .logo-group .logo-link {
+    position: absolute;
+    z-index: 999;
+  }
+  .pets-header .header-bg .header-menu .logo-group .logo-link .logo {
+    font-size: 25px;
+  }
+  .pets-header .header-bg .header-menu .logo-group .logo-link .sub-logo {
+    font-size: 10px;
+    padding-top: 5px;
+  }
+  .pets-header .header-bg .header-menu .menu-group {
+    display: none;
+  }
+  .pets-header .header-bg .header-menu .mobile {
+    display: block;
+  }
+  .pets-header .header-bg .header-menu .mobile .menu-container .mobile-nav {
+    width: 70%;
+  }
+  .pets-header .header-bg .header-menu .mobile .menu-container .mobile-nav.active {
+    transform: translateX(45%);
+  }
+  .pets-header .header-bg .header-content {
+    padding-top: 200px;
+  }
+  main .about-section .about-group .about-pic {
+    width: 100%;
+    height: 300px;
+  }
+  main .about-section .about-group .right-content .about-title {
+    font-size: 25px;
+  }
+  main .about-section .about-group .right-content .about-text {
+    font-size: 14px;
+  }
+  main .slider-section {
+    background-color: #f6f6f6;
+  }
+  main .slider-section .slider-title {
+    font-size: 25px;
+  }
+  main .slider-section .slider {
+    margin: 50px 0 0 0;
+  }
+  main .slider-section .slider .slide {
+    margin: 0 5px;
+  }
+  main .helping-section .helping-title {
+    font-size: 25px;
+  }
+  main .donate-section {
+    padding: 30px 0 86px 0;
+  }
+  main .donate-section .donate-group {
+    display: block;
+  }
+  main .donate-section .donate-group .donate-pic {
+    width: 100%;
+    background-position: center;
+  }
+  main .donate-section .donate-group .donate-content {
+    max-width: none;
+    width: 100%;
+  }
+  main .donate-section .donate-group .donate-content .donate-title {
+    font-size: 25px;
+    text-align: center;
+  }
+  main .donate-section .donate-group .donate-content .donate-name {
+    text-align: center;
+    padding: 35px 0;
+  }
+  main .donate-section .donate-group .donate-content .donate-info .card-pic {
+    width: 30px;
+    height: 23px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 15px;
+  }
+  main .donate-section .donate-group .donate-content .donate-info .card-number {
+    font-size: 18px;
+  }
+  main .donate-section .donate-group .donate-content .donate-sub-text {
+    text-align: center;
+  }
+  .contacts-footer .contacts-bg {
+    height: 700px;
+  }
+}
